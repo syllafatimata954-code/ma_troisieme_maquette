@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+}
+
+body{
+     background-color: rgb(206, 206, 182);
+}
+
+header section{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin: 0px 50px;
+}
+
+header ul{
+    display: flex;
+   
+}
+
+header ul, header li{
+    display: flex;
+    justify-content:space-between;
+    width: 350px;
+    align-items: end;
+    margin-bottom:5px;
+}
+
+li a{
+     color: black;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.trait{
+    border-bottom: 2px solid rgb(216, 190, 240);
+    width: 100%;
+}
+
+main section{
+    margin: 0px 50px;
+}
+
+.banniere img{
+    margin-top: 20px;
+    height: 200px;
+    width:100% ;
+}
+
+.bannie{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+}
+
+.bannie p,.bannie h4 {
+    margin: 0px 15px;
+}
+
+.bannie h4{
+    background-color: brown;
+    border-radius: 5px;
+}
+
+.conteneur {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sous_element{
+    margin-top: 20px;
+    display: flex;
+}
+
+.sous_element h3{
+    margin-top: 10px;
+
+}
+
+.sous_elements p{
+    text-align: justify;
+    width:730px;
+    height: 360px;
+}
+
+.sous_elements a{
+    color:red;
+}
+
+.element{
+    background-color: rgb(89, 87, 87);
+    height: 380px;
+    margin-top: 40px;
+    border-radius: 30px;
+    width: 400px;
+}
+
+.element h3{
+    margin-top: 15px; 
+    margin-left: 10px;   
+}
+
+.element img{
+    margin-top: 10px;
+}
+
+.sous_elemen{
+    display: flex;
+    justify-content: center;
+}
+
+.element p{
+    margin-left: 10px;   
+    margin-top: 15px; 
+}
+
+.elemens{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid rgb(216, 190, 240);
+}
+
+footer .zozor{
+    margin-top: 50px;
+}
+
+.zozors{
+    margin-top: 85px;
+}
+
+.ZOZORS {
+    display: flex;
+    margin-top: 10px;
+}
+
+.ZOZORS h4{
+    margin-left: 25px;
+}
+
+.ZOZORS ul,.ZOZORS li{
+    color: red;
+}
