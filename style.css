@@ -6,7 +6,7 @@ body{
      background-color: rgb(206, 206, 182);
 }
 
-header section{
+header {
     display: flex;
     justify-content: space-between;
     height: 100px;
@@ -150,6 +150,14 @@ footer .zozor{
     margin-left: 25px;
 }
 
-.ZOZORS ul,.ZOZORS li{
+.ZOZORS ul{
     color: red;
+
+}
+
+.zozor ul, .zozors ul{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    font-size:small;
 }
